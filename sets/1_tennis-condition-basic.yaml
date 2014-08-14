@@ -1,0 +1,16 @@
+id: 1
+name: "Tennis condition - basic"
+author:
+  id: 1
+  name: "Ondrej Janata"
+  email: "janaton1@fel.cvut.cz"
+description: "Some description describing this excercise set ..."
+excercises:
+  - 
+    name: Squat
+    id: 1
+    url: https://github.com/hack006/openscapp-sample-repository/blob/a705de5a49d12bf71c70cf16cb2fee19bac08b77/excercises/1_squat.yaml
+  -
+    name: Bench jump
+    id: 2
+    url: https://github.com/hack006/openscapp-sample-repository/blob/a705de5a49d12bf71c70cf16cb2fee19bac08b77/excercises/2_bench-jump.yaml

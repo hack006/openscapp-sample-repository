@@ -1,0 +1,87 @@
+id: 1
+md5: 5f039b4ef0058a1d652f13d612375a5b # faked, used to determine changes
+url: https://github.com/hack006/openscapp-sample-repository/blob/master/excercises/1_squat.yaml
+license: MIT
+author: Ondrej Janata [janaton1@fel.cvut.cz]
+name: Squat
+description: Standard squat without external load.
+difficulty: beginner # [beginner, basic, intermediate, advanced, expert]
+focus: strengthening # (stretching, concentration, ..., tennis, basketball, ...), structure could be dependant on this parameter
+type: strength #type of excercise - [ endurance, power, ... ]
+alerts:
+  - Keep your back straight
+  - Stop immediately when you feel any pain!
+  
+tags:
+  - squat
+  - leg strenghtening
+
+phases: # not required, create complex for all sports??
+  -
+    number: 1
+    name: up
+    image-good: http://urltoimgrepresentingthisstep.com # not required
+    image-bad: http://urltoimgrepresentingthisstep.com # not required
+    description: Stand up ...
+  - 
+    number: 2
+    name: down
+    image-good: http://urltoimgrepresentingthisstep.com # not required
+    image-bad: http://urltoimgrepresentingthisstep.com # not required
+    description: Fall below the top of the knee
+    
+timings:
+  -
+    name: basic 3-3
+    times:
+      - 3
+      - 3
+  -
+    name: basic 5-5
+    times:
+      - 5
+      - 5
+      
+measurable: # which parameters can be measured, should be standarized
+  - 
+    name: count
+    unit: 
+    time: set # when and how many times we want to measure [each-set, excercise, begin-end]
+    
+  -
+    name: heart rate
+    unit: bpm # should be normalized as set of units placed in units folder
+    time: begin-end
+      
+videos:
+  -
+    name: dasd
+    youtube: http://www.youtube.com/dasdsa
+
+locales: # another localization version??, basic in English
+  cs:
+    name: Dřep
+    description: 
+    alerts:
+      - Držte rovná záda
+      - Přestaňte s prováděním cviku jakmile ucítíte bolest
+    tags:
+      - dřep
+      - posilování nohy
+    phases:
+      - 
+        number: 1
+        name: Stojíme na natežených nohou
+      -
+        number: 2
+        name: Jsme v dřepu    
+    
+sources: # source - website, book, magazine ...
+  - 
+    name: Bodybuilding official website
+    source: http://www.bodybuildingassociation.com/dasdas
+    description: dsadas
+  - 
+    name: Czech bodybuilding association
+    source: http://www.bodybuildingassociation.cz/dsadas
+    description:
